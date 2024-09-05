@@ -1,0 +1,38 @@
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-theme #chat-log {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .dark-theme #online-users {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .dark-theme .fas {
+    color: #fff;
+  }
+
+  .prompt {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+  }
+  
+  .prompt.join {
+    background-color: #34c759; /* green color */
+  }
+  
+  .prompt.leave {
+    background-color: #ff3b3b; /* red color */
+  }
